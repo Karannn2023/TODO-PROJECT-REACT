@@ -1,0 +1,91 @@
+* {
+  margin: 0%;
+}
+.heading {
+  font-size: 45px;
+  font-weight: bolder;
+  text-align: center;
+}
+.comp01 {
+  margin-bottom: 10px;
+}
+input {
+  width: 100%;
+  font-weight: bold;
+  font-size: large;
+  font-style: oblique;
+}
+button {
+  width: 75px;
+}
+.btn-success {
+  font-weight: 700;
+}
+.btn-danger {
+  font-weight: 700;
+}
+.element {
+  text-align: left;
+  font-weight: bolder;
+  font-size: large;
+  font-style: oblique;
+}
+
+.container {
+  padding: 10px;
+  background-color: #faef9b;
+  border: 10px solid #f6d776;
+  width: 100%;
+  border-radius: 30px;
+  margin-top: 35px;
+  text-align: right;
+}
+h2 {
+  margin: 20px;
+  text-align: center;
+  font-size: xx-large;
+  font-family: fangsong;
+  font-weight: lighter;
+}
+h1 {
+  margin: 20px;
+  text-align: center;
+  font-size: xx-large;
+  font-family: fangsong;
+  font-weight: lighter;
+}
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.loading svg polyline {
+  fill: none;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.loading svg polyline#back {
+  fill: none;
+  stroke: #ff4d5033;
+}
+
+.loading svg polyline#front {
+  fill: none;
+  stroke: #ff4d4f;
+  stroke-dasharray: 48, 144;
+  stroke-dashoffset: 192;
+  animation: dash_682 1.4s linear infinite;
+}
+
+@keyframes dash_682 {
+  72.5% {
+    opacity: 0;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+}
